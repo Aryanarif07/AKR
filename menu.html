@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu — AKR | Aryan Khan Restaurant</title>
+    <meta name="description" content="Explore our authentic Pakistani, BBQ, Continental, Desserts and Beverage menu items with prices.">
+    <meta name="keywords" content="AKR Menu, Biryani Price, Mutton Karahi Price, BBQ Platter Islamabad, Food Menu Islamabad">
+    <meta name="author" content="Aryan Khan Restaurant">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍲</text></svg>">
+    
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-brand">
+            <div class="loader-logo">AKR</div>
+            <div class="loader-name">Aryan Khan Restaurant</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="nav-brand">
+                    <div class="logo-badge">AKR</div>
+                    <div class="brand-text-wrap">
+                        <span class="brand-title">Aryan Khan Restaurant</span>
+                        <span class="brand-subtitle">Fine Pakistani & BBQ</span>
+                    </div>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="team.html" class="nav-link">Team</a></li>
+                    <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                    <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="index.html#reservation" class="btn btn-primary">Book a Table</a>
+                    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+    <!-- INNER BANNER -->
+    <section class="inner-hero-banner" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="container inner-banner-content">
+            <h1 class="inner-banner-title">Our Food Menu</h1>
+            <div class="breadcrumb-nav">
+                <a href="index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Menu</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-title-wrap animate-on-scroll">
+                <span class="subtitle">Delicious Flavors</span>
+                <h2 class="section-title">Our Delicious Menu</h2>
+                <p class="section-description">Filter menu items by category and click Order Now to reserve your feast.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="menu-filter-container animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="pakistani">Pakistani</button>
+                <button class="filter-btn" data-filter="bbq">BBQ</button>
+                <button class="filter-btn" data-filter="continental">Continental</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-cards-grid">
+                <!-- 1. Special Biryani -->
+                <div class="menu-card animate-on-scroll" data-category="pakistani">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80" alt="Special Chicken Biryani">
+                        <span class="menu-card-price-tag">Rs. 899</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Pakistani</span>
+                        <h3 class="menu-card-title">Special Chicken Biryani</h3>
+                        <p class="menu-card-desc">Aromatic basmati rice with tender chicken and traditional spices.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Popular</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Mutton Karahi -->
+                <div class="menu-card animate-on-scroll delay-1" data-category="pakistani">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80" alt="Special Mutton Karahi">
+                        <span class="menu-card-price-tag">Rs. 2,499</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Pakistani</span>
+                        <h3 class="menu-card-title">Special Mutton Karahi</h3>
+                        <p class="menu-card-desc">Tender mutton cooked with tomatoes, green chilies and traditional spices.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Chef Choice</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Chicken Tikka -->
+                <div class="menu-card animate-on-scroll delay-2" data-category="bbq">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80" alt="Chicken Tikka">
+                        <span class="menu-card-price-tag">Rs. 649</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">BBQ</span>
+                        <h3 class="menu-card-title">Chicken Tikka</h3>
+                        <p class="menu-card-desc">Juicy marinated chicken grilled over charcoal.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Grill</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Royal BBQ Platter -->
+                <div class="menu-card animate-on-scroll" data-category="bbq">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" alt="Royal BBQ Platter">
+                        <span class="menu-card-price-tag">Rs. 2,999</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">BBQ</span>
+                        <h3 class="menu-card-title">Royal BBQ Platter</h3>
+                        <p class="menu-card-desc">Seekh Kabab, Chicken Boti, Malai Boti and Lamb Chops.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Feast</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Creamy Alfredo Pasta -->
+                <div class="menu-card animate-on-scroll delay-1" data-category="continental">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80" alt="Creamy Alfredo Pasta">
+                        <span class="menu-card-price-tag">Rs. 1,199</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Continental</span>
+                        <h3 class="menu-card-title">Creamy Alfredo Pasta</h3>
+                        <p class="menu-card-desc">Fettuccine pasta with creamy parmesan sauce and grilled chicken.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Creamy</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Double Beef Burger -->
+                <div class="menu-card animate-on-scroll delay-2" data-category="continental">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="Double Beef Burger">
+                        <span class="menu-card-price-tag">Rs. 999</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Continental</span>
+                        <h3 class="menu-card-title">Double Beef Burger</h3>
+                        <p class="menu-card-desc">Double beef patties, cheddar cheese and fresh vegetables.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Cheesy</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Honey BBQ Wings -->
+                <div class="menu-card animate-on-scroll" data-category="starters">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80" alt="Honey BBQ Wings">
+                        <span class="menu-card-price-tag">Rs. 599</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Starters</span>
+                        <h3 class="menu-card-title">Honey BBQ Wings</h3>
+                        <p class="menu-card-desc">Crispy chicken wings with smoky honey BBQ sauce.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Starter</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Shahi Gulab Jamun -->
+                <div class="menu-card animate-on-scroll delay-1" data-category="desserts">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80" alt="Shahi Gulab Jamun">
+                        <span class="menu-card-price-tag">Rs. 399</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Desserts</span>
+                        <h3 class="menu-card-title">Shahi Gulab Jamun</h3>
+                        <p class="menu-card-desc">Traditional gulab jamun served with ice cream.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Sweet</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Fresh Mint Margarita -->
+                <div class="menu-card animate-on-scroll delay-2" data-category="drinks">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Fresh Mint Margarita">
+                        <span class="menu-card-price-tag">Rs. 299</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Drinks</span>
+                        <h3 class="menu-card-title">Fresh Mint Margarita</h3>
+                        <p class="menu-card-desc">Fresh mint, lemon, soda and crushed ice.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Drink</span>
+                            <a href="index.html#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-col-title">AKR — Aryan Khan</h3>
+                    <p class="footer-about-text">
+                        Aryan Khan Restaurant is Islamabad's premier dining destination offering authentic Pakistani cuisine, charcoal BBQ, and continental specialties.
+                    </p>
+                    <div class="footer-social-links">
+                        <a href="#" class="footer-social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer-col-title">Quick Links</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Food Menu</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Our Services</a></li>
+                        <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Photo Gallery</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-col-title">Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Main Food Street, Islamabad, Pakistan</li>
+                        <li><i class="fas fa-phone-alt"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@aryankhanrestaurant.com</li>
+                        <li><i class="fas fa-clock"></i> Mon – Sun | 11:00 AM – 11:00 PM</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-col-title">Opening Hours</h3>
+                    <p style="color: #A0A0A0; font-size: 0.95rem; line-height: 1.8;">
+                        <strong style="color: var(--gold-primary);">Monday – Sunday:</strong><br>
+                        11:00 AM – 11:00 PM
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 AKR — Aryan Khan Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="js/script.js"></script>
+</body>
+</html>
