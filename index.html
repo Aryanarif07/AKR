@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKR — Aryan Khan Restaurant | Delicious Pakistani, BBQ & Fine Dining</title>
+    <meta name="description" content="Visit AKR — Aryan Khan Restaurant for delicious Pakistani, BBQ and Continental cuisine, friendly service and an unforgettable dining experience in Islamabad, Pakistan.">
+    <meta name="keywords" content="AKR, Aryan Khan Restaurant, Pakistani Cuisine, BBQ, Biryani, Mutton Karahi, Fine Dining Islamabad, Best Restaurant Islamabad">
+    <meta name="author" content="Aryan Khan Restaurant">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍲</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. PAGE PRELOADER -->
+    <div id="preloader">
+        <div class="loader-brand">
+            <div class="loader-logo">AKR</div>
+            <div class="loader-name">Aryan Khan Restaurant</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- 2. STICKY HEADER / NAVBAR -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="nav-brand">
+                    <div class="logo-badge">AKR</div>
+                    <div class="brand-text-wrap">
+                        <span class="brand-title">Aryan Khan Restaurant</span>
+                        <span class="brand-subtitle">Fine Pakistani & BBQ</span>
+                    </div>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="team.html" class="nav-link">Team</a></li>
+                    <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                    <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="index.html#reservation" class="btn btn-primary">Book a Table</a>
+                    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+    <!-- 3. HERO SECTION -->
+    <section class="hero-section" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content animate-on-scroll">
+            <div class="hero-tagline-badge">
+                <i class="fas fa-utensils"></i> Where Every Bite Tells a Story
+            </div>
+            <h1 class="hero-title-main">Welcome to <span>AKR</span></h1>
+            <h2 class="hero-subtitle-text">Aryan Khan Restaurant</h2>
+            <p class="hero-description">Experience delicious Pakistani flavors, authentic BBQ, freshly prepared continental meals and warm traditional hospitality right in the heart of Islamabad.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary"><i class="fas fa-utensils"></i> Explore Menu</a>
+                <a href="#reservation" class="btn btn-secondary"><i class="fas fa-calendar-check"></i> Book a Table</a>
+            </div>
+        </div>
+        <div class="scroll-down-indicator">
+            <span>SCROLL</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT SECTION -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrap animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="AKR Restaurant Ambience">
+                    <div class="about-experience-badge">
+                        <div class="experience-number">10+</div>
+                        <div class="experience-text">Years of Excellence</div>
+                    </div>
+                </div>
+                <div class="about-content-wrap animate-on-scroll delay-1">
+                    <div class="section-title-wrap">
+                        <span class="subtitle">Our Culinary Journey</span>
+                        <h2 class="section-title">Our Story</h2>
+                    </div>
+                    <p class="about-text-body">
+                        Aryan Khan Restaurant is a modern family dining destination where traditional Pakistani & BBQ recipes meet contemporary dining standards. Our goal is to provide delicious food, uncompromised quality ingredients, hygienic preparation, and memorable hospitality for every guest.
+                    </p>
+                    <a href="about.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Discover More</a>
+
+                    <div class="stats-counter-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-history stat-icon"></i>
+                            <div class="stat-number" data-target="10" data-suffix="+">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-hamburger stat-icon"></i>
+                            <div class="stat-number" data-target="50" data-suffix="+">0</div>
+                            <div class="stat-label">Delicious Dishes</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-smile stat-icon"></i>
+                            <div class="stat-number" data-target="25" data-suffix="K+">0</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-user-chef stat-icon"></i>
+                            <div class="stat-number" data-target="15" data-suffix="+">0</div>
+                            <div class="stat-label">Professional Staff</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. MENU / SPECIAL DISHES SECTION -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);" id="menu">
+        <div class="container">
+            <div class="section-title-wrap animate-on-scroll">
+                <span class="subtitle">Fresh & Authentic</span>
+                <h2 class="section-title">Our Delicious Menu</h2>
+                <p class="section-description">Handcrafted dishes cooked with fresh local spices and charcoal grill mastery.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="menu-filter-container animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="pakistani">Pakistani</button>
+                <button class="filter-btn" data-filter="bbq">BBQ</button>
+                <button class="filter-btn" data-filter="continental">Continental</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+            </div>
+
+            <!-- Menu Cards Grid -->
+            <div class="menu-cards-grid">
+                <!-- 1. Special Biryani -->
+                <div class="menu-card animate-on-scroll" data-category="pakistani">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80" alt="Special Chicken Biryani">
+                        <span class="menu-card-price-tag">Rs. 899</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Pakistani</span>
+                        <h3 class="menu-card-title">Special Chicken Biryani</h3>
+                        <p class="menu-card-desc">Aromatic basmati rice with tender chicken, fried onions, herbs and traditional Secret AKR spices.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Bestseller</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Mutton Karahi -->
+                <div class="menu-card animate-on-scroll delay-1" data-category="pakistani">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80" alt="Special Mutton Karahi">
+                        <span class="menu-card-price-tag">Rs. 2,499</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Pakistani</span>
+                        <h3 class="menu-card-title">Special Mutton Karahi</h3>
+                        <p class="menu-card-desc">Tender mutton cooked in traditional iron wok with tomatoes, ginger julienne, green chilies & desi ghee.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Chef Special</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Chicken Tikka -->
+                <div class="menu-card animate-on-scroll delay-2" data-category="bbq">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80" alt="Chicken Tikka">
+                        <span class="menu-card-price-tag">Rs. 649</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">BBQ</span>
+                        <h3 class="menu-card-title">Chicken Tikka</h3>
+                        <p class="menu-card-desc">Juicy marinated chicken leg or breast piece flame-grilled over live charcoal embers.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Smoky</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Royal BBQ Platter -->
+                <div class="menu-card animate-on-scroll" data-category="bbq">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" alt="Royal BBQ Platter">
+                        <span class="menu-card-price-tag">Rs. 2,999</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">BBQ</span>
+                        <h3 class="menu-card-title">Royal BBQ Platter</h3>
+                        <p class="menu-card-desc">Feast of Seekh Kabab, Chicken Boti, Malai Boti & Lamb Chops served with fresh naan and mint chutney.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Popular</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Creamy Alfredo Pasta -->
+                <div class="menu-card animate-on-scroll delay-1" data-category="continental">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80" alt="Creamy Alfredo Pasta">
+                        <span class="menu-card-price-tag">Rs. 1,199</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Continental</span>
+                        <h3 class="menu-card-title">Creamy Alfredo Pasta</h3>
+                        <p class="menu-card-desc">Fettuccine pasta tossed in silky rich parmesan cream sauce topped with herb grilled chicken strips.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Italian</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Double Beef Burger -->
+                <div class="menu-card animate-on-scroll delay-2" data-category="continental">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="Double Beef Burger">
+                        <span class="menu-card-price-tag">Rs. 999</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Continental</span>
+                        <h3 class="menu-card-title">Double Beef Burger</h3>
+                        <p class="menu-card-desc">Juicy double beef patties smashed with melted cheddar cheese, caramelized onions & signature sauce.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Juicy</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Honey BBQ Wings -->
+                <div class="menu-card animate-on-scroll" data-category="starters">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80" alt="Honey BBQ Wings">
+                        <span class="menu-card-price-tag">Rs. 599</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Starters</span>
+                        <h3 class="menu-card-title">Honey BBQ Wings</h3>
+                        <p class="menu-card-desc">Crispy golden chicken wings tossed in rich smoky honey barbecue sauce & sesame seed sprinkle.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Crispy</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Shahi Gulab Jamun -->
+                <div class="menu-card animate-on-scroll delay-1" data-category="desserts">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80" alt="Shahi Gulab Jamun">
+                        <span class="menu-card-price-tag">Rs. 399</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Desserts</span>
+                        <h3 class="menu-card-title">Shahi Gulab Jamun</h3>
+                        <p class="menu-card-desc">Traditional warm gulab jamun soaked in cardamom syrup served with premium vanilla ice cream.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Sweet</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Fresh Mint Margarita -->
+                <div class="menu-card animate-on-scroll delay-2" data-category="drinks">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Fresh Mint Margarita">
+                        <span class="menu-card-price-tag">Rs. 299</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <span class="menu-card-category">Drinks</span>
+                        <h3 class="menu-card-title">Fresh Mint Margarita</h3>
+                        <p class="menu-card-desc">Refreshing blend of fresh garden mint, lemon juice, soda, black salt and crushed ice.</p>
+                        <div class="menu-card-footer">
+                            <span class="badge">Chilled</span>
+                            <a href="#reservation" class="order-btn"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="menu.html" class="btn btn-primary"><i class="fas fa-book-open"></i> View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SERVICES SECTION -->
+    <section class="section-padding" id="services">
+        <div class="container">
+            <div class="section-title-wrap animate-on-scroll">
+                <span class="subtitle">What We Offer</span>
+                <h2 class="section-title">Our Premium Services</h2>
+                <p class="section-description">Dedicated to delivering exceptional culinary experiences for every occasion.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon-box">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="service-title">Dine-In</h3>
+                    <p class="service-desc">Enjoy delicious food in a comfortable, air-conditioned & elegant family environment with top hospitality.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll delay-1">
+                    <div class="service-icon-box">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3 class="service-title">Home Delivery</h3>
+                    <p class="service-desc">Get your favorite piping hot meals delivered right to your doorstep safely in record time.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll delay-2">
+                    <div class="service-icon-box">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="service-title">Takeaway</h3>
+                    <p class="service-desc">Freshly prepared, carefully packaged meals ready for fast and hassle-free takeaway pick up.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon-box">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3 class="service-title">Event Catering</h3>
+                    <p class="service-desc">Professional full-service catering for weddings, corporate events, birthday parties & family gatherings.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card animate-on-scroll delay-1">
+                    <div class="service-icon-box">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3 class="service-title">Private Dining</h3>
+                    <p class="service-desc">Enjoy special celebrations and confidential business meetings in our exclusive VIP private dining room.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card animate-on-scroll delay-2">
+                    <div class="service-icon-box">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="service-title">Online Reservation</h3>
+                    <p class="service-desc">Reserve your preferred table online in seconds and avoid waiting in long weekend queues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. WHY CHOOSE AKR SECTION -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-title-wrap animate-on-scroll">
+                <span class="subtitle">Our Excellence</span>
+                <h2 class="section-title">Why Choose Aryan Khan Restaurant?</h2>
+                <p class="section-description">We combine traditional tastes with modern hygiene and top-tier guest care.</p>
+            </div>
+
+            <div class="why-choose-grid">
+                <div class="feature-box animate-on-scroll">
+                    <i class="fas fa-leaf feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Fresh Ingredients</h4>
+                        <p class="feature-desc">100% fresh meat and vegetables sourced daily from trusted local farms.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll delay-1">
+                    <i class="fas fa-user-chef feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Experienced Chefs</h4>
+                        <p class="feature-desc">Master chefs specialized in authentic Pakistani Handi, Karahi & Live Charcoal Grill.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll delay-2">
+                    <i class="fas fa-pepper-hot feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Authentic Taste</h4>
+                        <p class="feature-desc">Secret heritage spice blends prepared in-house for rich traditional flavors.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll delay-3">
+                    <i class="fas fa-shield-virus feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Hygienic Kitchen</h4>
+                        <p class="feature-desc">Strict food safety, sanitized kitchen stations & ISO standard hygiene practices.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll">
+                    <i class="fas fa-smile-beam feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Friendly Staff</h4>
+                        <p class="feature-desc">Warm, respectful & courteous service to make every visit feel like home.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll delay-1">
+                    <i class="fas fa-couch feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Comfortable Environment</h4>
+                        <p class="feature-desc">Spacious seating with warm lighting, soothing ambience and background music.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll delay-2">
+                    <i class="fas fa-tags feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Affordable Prices</h4>
+                        <p class="feature-desc">Generous portion sizes and reasonable rates for maximum value for money.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box animate-on-scroll delay-3">
+                    <i class="fas fa-bolt feature-icon"></i>
+                    <div>
+                        <h4 class="feature-title">Fast Service</h4>
+                        <p class="feature-desc">Quick order preparation ensuring hot food on your table without long delays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. SPECIAL OFFER BANNER -->
+    <div class="container">
+        <div class="special-offer-banner animate-on-scroll" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1600&q=80');">
+            <div class="hero-overlay"></div>
+            <div class="offer-content-grid">
+                <div>
+                    <span class="badge">Limited Time Offer</span>
+                    <h2 class="offer-title">Weekend Special Offer</h2>
+                    <div class="offer-badge-large">FLAT 20% OFF</div>
+                    <p class="offer-desc">Enjoy 20% off on all selected family meal packages and BBQ platters every Saturday & Sunday!</p>
+                </div>
+                <div>
+                    <a href="#reservation" class="btn btn-primary" style="padding: 18px 36px; font-size: 1.1rem;"><i class="fas fa-gift"></i> Claim Offer Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 9. TESTIMONIALS SLIDER -->
+    <section class="section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-title-wrap animate-on-scroll">
+                <span class="subtitle">Guest Reviews</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-description">Real feedback from food lovers who dined at Aryan Khan Restaurant.</p>
+            </div>
+
+            <div class="testimonials-slider-wrap animate-on-scroll">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">“Absolutely loved the food! The Royal BBQ Platter was fresh, tender and juicy, and the staff was extremely courteous. I will definitely visit again with my family!”</p>
+                            <div class="testimonial-author-wrap">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Sarah Jenkins" class="testimonial-avatar">
+                                <div class="testimonial-author-info">
+                                    <h4 class="testimonial-author-name">Sarah Jenkins</h4>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">“AKR is hands down the best place for Mutton Karahi in Islamabad. The authentic spices and fresh naan make it an unforgettable dining experience. 10/10 recommendation!”</p>
+                            <div class="testimonial-author-wrap">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Bilal Malik" class="testimonial-avatar">
+                                <div class="testimonial-author-info">
+                                    <h4 class="testimonial-author-name">Bilal Malik</h4>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">“We booked their private dining hall for my brother's birthday. The food arrangement, ambience, and prompt service exceeded all our expectations!”</p>
+                            <div class="testimonial-author-wrap">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Ayesha Chaudhry" class="testimonial-avatar">
+                                <div class="testimonial-author-info">
+                                    <h4 class="testimonial-author-name">Ayesha Chaudhry</h4>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">“Cleanliness, fast delivery, and delicious Biryani! Whenever I visit Islamabad, eating at Aryan Khan Restaurant is a must for me.”</p>
+                            <div class="testimonial-author-wrap">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="David Miller" class="testimonial-avatar">
+                                <div class="testimonial-author-info">
+                                    <h4 class="testimonial-author-name">David Miller</h4>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn" id="sliderPrev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn" id="sliderNext" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. RESERVATION SECTION -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);" id="reservation">
+        <div class="container">
+            <div class="section-title-wrap animate-on-scroll">
+                <span class="subtitle">Table Booking</span>
+                <h2 class="section-title">Reserve Your Table</h2>
+                <p class="section-description">Fill out the reservation form below to guarantee your table.</p>
+            </div>
+
+            <div class="reservation-box animate-on-scroll" style="max-width: 800px; margin: 0 auto;">
+                <form id="reservationForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Full Name *</label>
+                            <input type="text" name="name" class="form-control" placeholder="e.g. Aryan Khan" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address *</label>
+                            <input type="email" name="email" class="form-control" placeholder="info@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number *</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="+92 300 1234567" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Date *</label>
+                            <input type="date" name="date" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Time *</label>
+                            <input type="time" name="time" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Number of Guests *</label>
+                            <select name="guests" class="form-control" required>
+                                <option value="1">1 Person</option>
+                                <option value="2" selected>2 Persons</option>
+                                <option value="4">4 Persons</option>
+                                <option value="6">6 Persons</option>
+                                <option value="8+">8+ Persons (Family/Group)</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label class="form-label">Special Request (Optional)</label>
+                            <textarea name="request" class="form-control" placeholder="Any dietary preferences, high chair needed, or anniversary seating?"></textarea>
+                        </div>
+                    </div>
+                    <div style="margin-top: 25px; text-align: center;">
+                        <button type="submit" class="btn btn-primary" style="width: 100%; max-width: 300px;"><i class="fas fa-check-circle"></i> Reserve My Table</button>
+                    </div>
+                    <div id="reservationFeedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. NEWSLETTER SECTION -->
+    <div class="container">
+        <section class="newsletter-section animate-on-scroll">
+            <h2 class="newsletter-title">Stay Connected With AKR</h2>
+            <p class="newsletter-desc">Subscribe to receive our latest discount offers, seasonal menu releases and special event invites straight to your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Subscribe</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- 12. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1 -->
+                <div>
+                    <h3 class="footer-col-title">AKR — Aryan Khan</h3>
+                    <p class="footer-about-text">
+                        Aryan Khan Restaurant is Islamabad's premier dining destination offering authentic Pakistani cuisine, charcoal BBQ, and continental specialties served in a luxury family atmosphere.
+                    </p>
+                    <div class="footer-social-links">
+                        <a href="#" class="footer-social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2 -->
+                <div>
+                    <h3 class="footer-col-title">Quick Links</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Food Menu</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Our Services</a></li>
+                        <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Photo Gallery</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3 -->
+                <div>
+                    <h3 class="footer-col-title">Contact Information</h3>
+                    <ul class="footer-contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Main Food Street, Islamabad, Pakistan</li>
+                        <li><i class="fas fa-phone-alt"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@aryankhanrestaurant.com</li>
+                        <li><i class="fas fa-clock"></i> Mon – Sun | 11:00 AM – 11:00 PM</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4 -->
+                <div>
+                    <h3 class="footer-col-title">Opening Hours</h3>
+                    <p style="color: #A0A0A0; font-size: 0.95rem; line-height: 1.8;">
+                        <strong style="color: var(--gold-primary);">Monday – Friday:</strong><br>
+                        11:00 AM – 11:00 PM<br><br>
+                        <strong style="color: var(--gold-primary);">Saturday – Sunday:</strong><br>
+                        11:00 AM – 11:30 PM
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 AKR — Aryan Khan Restaurant. All Rights Reserved. Designed for Student Frontend Assignment.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 13. FLOATING BACK TO TOP BUTTON -->
+    <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
